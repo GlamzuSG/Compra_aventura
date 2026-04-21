@@ -28,14 +28,20 @@ Nuestro proyecto aborda la falta de transparencia en el mercado de consumo masiv
 
 ## 📋 Historias de Usuario (Backlog)
 
-| ID | Nombre |
-| :--- | :--- | 
-| **US-01** | Registrar cuenta de usuario 
-| **US-02** | Iniciar sesión 
-| **US-03** | Búsqueda de productos por filtros 
-| **US-04** | Comparación de precios multitienda 
-| **US-05** | Visualización de disponibilidad de stock 
-| **US-06** | Dashboard de ofertas destacadas 
+## 📋 Backlog de Historias de Usuario (Issues)
+
+| ID | Historia de Usuario | Descripción | Criterios de Aceptación |
+| :--- | :--- | :--- | :--- |
+| **#1** | **Búsqueda Comparativa** | Como usuario, quiero buscar un producto por nombre para ver una comparativa de precios en una sola pantalla. | Mostrar lista comparativa multitienda al ingresar un nombre de producto existente. |
+| **#2** | **Manejo de Errores** | Como usuario, quiero un mensaje claro cuando busco un producto que no existe. | Mostrar mensaje "Producto no encontrado" ante términos inexistentes en la BD. |
+| **#3** | **Orden y Alertas** | Como comprador, quiero ordenar por precio y suscribirme a alertas de baja de costo. | Opción "Ordenar por menor precio" y confirmación de suscripción a notificaciones de precio. |
+| **#4** | **Carga Administrativa** | Como administrador, quiero cargar precios vía CSV y destacar productos patrocinados. | Actualización de precios en < 5 min vía CSV y posicionamiento prioritario de marcas promocionadas. |
+| **#5** | **Resiliencia y Voz** | Como usuario, quiero ver resultados parciales si una tienda cae y poder buscar por voz. | Mensaje discreto ante caída de servidores externos y procesamiento de audio a texto para búsqueda. |
+| **#6** | **Priorización GPS** | Como usuario con GPS, quiero ver primero las ofertas de las sucursales más cercanas. | Priorizar resultados de tiendas dentro de un radio de 5 km de la ubicación actual. |
+| **#7** | **Registro de Usuarios** | Como usuario nuevo, quiero registrarme para guardar mis preferencias y listas. | Formulario de validación, creación de cuenta y redirección exitosa al Dashboard. |
+| **#8** | **Autenticación JWT** | Como usuario, quiero iniciar sesión de forma segura para acceder a mis datos privados. | Autenticación mediante tokens JWT y manejo correcto del cierre de sesión (logout). |
+| **#9** | **Sugerencias Dinámicas** | Como usuario, quiero sugerencias en tiempo real mientras escribo para agilizar la búsqueda. | Despliegue de sugerencias al escribir 2 caracteres y visualización de resultados multitienda. |
+| **#10** | **Filtros Avanzados** | Como usuario, quiero aplicar filtros de categoría, precio y tienda para refinar resultados. | Actualización inmediata de la lista según filtros aplicados y opción de "Limpiar filtros". |
 
 
 
